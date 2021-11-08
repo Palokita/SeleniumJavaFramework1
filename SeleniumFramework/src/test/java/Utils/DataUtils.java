@@ -28,9 +28,8 @@ public class DataUtils {
 			
 		}catch(Exception exp)
 		{
-			exp.getMessage();
-			exp.getCause();
-		}
+			exp.printStackTrace();
+			}
 	}
 	public static void getCellDataString(int rownum, int colnum)
 	{
