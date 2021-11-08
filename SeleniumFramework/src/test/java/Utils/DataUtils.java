@@ -44,7 +44,7 @@ public class DataUtils {
 		{
 			exp.getMessage();
 			exp.getCause();
-			exp.printStackTrace();
+			
 		}
 	}
 		
