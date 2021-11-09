@@ -5,7 +5,7 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 public class TestNgDataProvider {
 	public static void main(String[] args) {
 		
-		String excelPath ="P:\\New folder\\SeleniumFramework\\excel\\data.xlsx";
+		String excelPath ="C:\\Users\\PRAGYAN\\git\\SeleniumJavaFramework1\\SeleniumFramework\\excel\\data.xlsx";
 		testData(excelPath, "Sheet1");
 		
 	}

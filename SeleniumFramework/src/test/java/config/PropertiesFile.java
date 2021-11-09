@@ -21,7 +21,7 @@ public class PropertiesFile {
 	{
 		
 		try {
-			InputStream input = new FileInputStream("P:\\New folder\\SeleniumFramework\\src\\test\\java\\config\\config.properties");
+			InputStream input = new FileInputStream("C:\\Users\\PRAGYAN\\git\\SeleniumJavaFramework1\\SeleniumFramework\\src\\test\\java\\config\\config.properties");
 			prop.load(input);
 			String browser = prop.getProperty("Browser");
 			System.out.println(browser);
@@ -36,7 +36,7 @@ public class PropertiesFile {
 	
 	public static void setProperties() {
 		try{
-		OutputStream output = new FileOutputStream("P:\\New folder\\SeleniumFramework\\src\\test\\java\\config\\config.properties");
+		OutputStream output = new FileOutputStream("C:\\Users\\PRAGYAN\\git\\SeleniumJavaFramework1\\SeleniumFramework\\src\\test\\java\\config\\config.properties");
 		prop.setProperty("browser", "firefox");
 		prop.store(output, "got output from input file");
 	

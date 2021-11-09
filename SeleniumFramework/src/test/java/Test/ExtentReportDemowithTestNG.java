@@ -32,7 +32,7 @@ public class ExtentReportDemowithTestNG {
 	@BeforeTest
 	public void setupTest()
 	{
-		System.setProperty("webdriver.chrome.driver", "P:\\New folder\\SeleniumFramework\\Drivers\\chromedriver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\PRAGYAN\\git\\SeleniumJavaFramework1\\SeleniumFramework\\Drivers\\chromedriver\\chromedriver.exe");
 		
 		driver = new ChromeDriver();
 	}

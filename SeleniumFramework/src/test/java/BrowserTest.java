@@ -9,7 +9,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class BrowserTest {
 
 	public static void main(String[] args) {
-		System.setProperty("webdriver.chrome.driver", "P:\\New folder\\SeleniumFramework\\Drivers\\chromedriver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\PRAGYAN\\git\\SeleniumJavaFramework1\\SeleniumFramework\\Drivers\\chromedriver\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("http://google.com/");
 		WebElement searchBox = driver.findElement(By.xpath("//input[@title='Search']"));

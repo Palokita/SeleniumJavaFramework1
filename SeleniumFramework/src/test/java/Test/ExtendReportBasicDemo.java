@@ -22,7 +22,7 @@ public class ExtendReportBasicDemo {
 		//create a toggle for google test
 		ExtentTest test1 = extent.createTest("Google search test1", "this is on etest  for google search");
 		
-		System.setProperty("webdriver.chrome.driver", "P:\\New folder\\SeleniumFramework\\Drivers\\chromedriver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\PRAGYAN\\git\\SeleniumJavaFramework1\\SeleniumFramework\\Drivers\\chromedriver\\chromedriver.exe");
 		
 		driver = new ChromeDriver();
 		
